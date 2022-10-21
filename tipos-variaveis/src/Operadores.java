@@ -42,7 +42,7 @@ public class Operadores {
       int a, b;
       a = 5;
       b = 6;
-      String resultado = a==b ? "verdadeiro" : "falso";
+      String resultado = a==b ? "verdadeiro" : "falso"; // equivale a if ---> else (booleana)
       System.out.println(resultado);
       
   }  
