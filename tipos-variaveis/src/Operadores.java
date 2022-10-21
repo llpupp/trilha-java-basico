@@ -59,5 +59,16 @@ public class Operadores {
       String nomeDois = new String("GLAYSON");
 
       System.out.println(nomeUm.equals(nomeDois)); //compara conteúdos e neste caso é true (não devemos usar == neste caso de objetos)
+
+      boolean condicao1=true;
+      boolean condicao2=false;
+      if (condicao1 && (7>4)) {
+        System.out.println("as duas condições são verdadeiras"); // equivale a e e aqui pode ser condição relacional de texto ou mesmo comparativo de numeros <> ==
+      }
+      if (condicao1 || condicao2) {
+        System.out.println("uma das condições é verdadeira"); // equivale a ou
+
+      }
+      System.out.println("fim");
   }  
 }
