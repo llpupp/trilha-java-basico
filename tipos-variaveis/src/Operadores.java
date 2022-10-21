@@ -55,5 +55,9 @@ public class Operadores {
       simNao = numero1 != numero2; // equivale à diferente
       System.out.println("numeroUm é diferente a numeroDois? " + simNao);
       
+      String nomeUm = "GLAYSON";
+      String nomeDois = new String("GLAYSON");
+
+      System.out.println(nomeUm.equals(nomeDois)); //compara conteúdos e neste caso é true (não devemos usar == neste caso de objetos)
   }  
 }
