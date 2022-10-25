@@ -4,8 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-                 
-
+        {
+            "type": "java",
+            "name": "Launch AboutMe1",
+            "request": "launch",
+            "mainClass": "AboutMe1",
+            "projectName": "java-terminal_fd85fb1e"
+        },
         {
             "type": "java",
             "name": "Launch Current File",

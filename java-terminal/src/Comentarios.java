@@ -41,6 +41,7 @@ public class Comentarios {
     public void metodo() {
 
     }
-    // linha de comando para criar documentação html (no terminal) para disponibilizar via web
+    // linha de comando para criar documentação html (no terminal) para
+    // disponibilizar via web
     // javadoc -encoding UTF-8 -docencoding ISO-8859-1 -d ../docs src/*.java
 }
